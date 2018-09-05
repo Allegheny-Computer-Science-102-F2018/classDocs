@@ -1,0 +1,5 @@
+Jane smyth,smythj$ac.edu
+Betty Davis,davisb@ac.edu
+John smith,smithj@mum.com 
+Buffalo Bill,buffalob@prairie.com
+James Bond,bondj@magestySecrets.co.uk
