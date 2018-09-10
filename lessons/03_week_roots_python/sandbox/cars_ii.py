@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # Date: 10 Sept 2019
 # To run this program: python3 cars_ii.py
@@ -19,7 +19,6 @@ def blueFunction():
 
 def main(): # main function (driver)
     # ask the user what color car they saw
-    #color = input("  What color car did you see? (options: blue or red) : ")
     msg = "  What color car did you see? (options: blue or red) : "
     color = str(input(msg))
     print("  The entered color is <<", color,">> and the type is", type(color))
@@ -32,5 +31,4 @@ def main(): # main function (driver)
 #end of main()
 
 ######  Begin the program by calling the function  #######
-main() # start the program by calling the main() function. 
-
+main() # start the program by calling the main() function.
