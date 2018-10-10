@@ -1,3 +1,5 @@
+# Program: yet another yield
+# Date: 10 Oct 2018
 
 def my_gen():
     # function to act as a generator
@@ -29,4 +31,3 @@ next(a) #Gimme the third yield statement
 # use a loop to iterate
 for i in my_gen():
  print("mygen() :",i)
-
