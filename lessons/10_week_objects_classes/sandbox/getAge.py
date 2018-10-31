@@ -22,6 +22,7 @@ class User:
         mm = int(self.birthday[4:6])
         dd = int(self.birthday[6:8])
         dob = datetime.date(yyyy,mm,dd) #date of birth
+        print(" Hi, I'm ageMethod1. dob = ",dob)
         age_in_days = (today - dob).days
         age_in_years = age_in_days/365
         return int(age_in_years)
@@ -60,12 +61,12 @@ print("       First: ",user.first_name)
 print("        Last: ",user.last_name)
 print("    Birthday: ",user.birthday)
 print("  AgeMethod1: ",user.ageMethod1()) # old technique
-#print("  AgeMethod2: ",user.ageMethod2()) #dynamic date getting
+print("  AgeMethod2: ",user.ageMethod2()) #dynamic date getting
 
 
 #create another instance of this object with a new name
 
-#user1 = User("Franky Wrighty","20170608") #June 8, 1867
+#user1 = User("Franky Wrighty","20170608") #June 8, 2017
 #print("    FullName: ",user1.name)
 #print("       First: ",user1.first_name)
 #print("        Last: ",user1.last_name)
